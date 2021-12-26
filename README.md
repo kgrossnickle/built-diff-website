@@ -1,80 +1,36 @@
-# Hydra
+# [Dogecoin.com]
 
-Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
-Increase the web presence of your brand with this configurable theme.
+Dogecoin.com, for shibes and people everywhere.
 
-![Hydra template screenshot](images/_screenshot.png)
+![DogeCoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
 
-Hydra was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+## What is this?
+It's the [Dogecoin.com] homepage. Made so everyone, even the nontechnical, can use Dogecoin.
+Designed to retain the spirit of Dogecoin, whilst appealing to the more serious with its modern, simple design.
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+[Dogecoin.com] is completely responsive, it'll look good on your smartphone, tablet, desktop, and more.
+It is completely HTML5 W3C Validated, which means it complies with the standards set by W3C.
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/hydra-jekyll-template)
+## Technical Details Pls.
+Languages:
+Mainly written in HTML (dur), CSS (such dur), and Javascript (moar dur).
 
-## Features
+Frameworks:
+Bootstrap and jQuery.
 
-* Contact form
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination
-* Post category pages
-* Disqus comments for posts
-* Staff and author system
-* Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+Extras:
+FitVids, FitText, Font-Awesome, MFizz Fonts, Google Oswald.
 
-## Setup
+## Can I contribute ?
+Yes you can!
+We created some guides just for you:
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+| [Windows Guide][G1] | [Linux Guide][G2] | [OSX Guide][G3] | [Docker Guide][G4] |
+|:-----------------:|:-------------------:|:---------------:|:------------------:|
 
-## Develop
+[G1]: https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_windows.md
+[G2]: https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_linux.md
+[G3]: https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_osx.md
+[G4]: https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_docker.md
 
-Hydra was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
-
-Install the dependencies with [Bundler](http://bundler.io/):
-
-~~~bash
-$ bundle install
-~~~
-
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
-
-~~~bash
-$ bundle exec jekyll serve
-~~~
-
-## Editing
-
-Hydra is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
-
-### Posts
-
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
-
-### Contact Form
-
-* Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
-* Sends email to the address listed in company details.
-
-### Staff
-
-* Reused around the site to save multiple editing locations.
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
-
-### Navigation
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+[Dogecoin.com]: https://dogecoin.com/
