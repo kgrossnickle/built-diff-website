@@ -1,4 +1,5 @@
 Aquire ruby
 
 bundle install
+
 bundle exec jekyll serve
